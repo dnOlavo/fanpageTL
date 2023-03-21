@@ -52,6 +52,7 @@
     width: 85%;
     font-size: 18px;
     margin: 30px 0;
+    font-family: 'Poppins';
 }
 
 .main-container .button-videopart {
@@ -64,6 +65,7 @@
     border: none;
     text-transform: uppercase;
     transition: 0.5s all ease-in-out;
+    font-family: 'Poppins';
 }
 
 .main-container .button-videopart:hover {
@@ -93,4 +95,48 @@
     top: 0;
     left: 0;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+}
+
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.749);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.conteudo-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.fechar-modal {
+    background-color: #000;
+    color: #87fd38;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal iframe {
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+
+}
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
 }
