@@ -1,0 +1,28 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Chronic";
+}
+
+.main-header .logo {
+    font-size: 30px;
+    color: #000;
+}
+
+.main-header .menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.main-header nav li a {
+    font-weight: bold;
+    color: #000;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
