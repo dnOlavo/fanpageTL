@@ -7,14 +7,15 @@
     font-family: "Chronic";
 }
 
-.main-header .logo {
-    height: 30px;
+.main-header .logo img {
+    height: 100%;
 }
 
 .main-header .menu {
     display: flex;
     height: 100%;
     align-items: center;
+    margin-right: 90px;
 }
 
 .main-header nav li a {
@@ -40,14 +41,14 @@
 }
 
 .main-container .title {
-    max-width: 500px;
+    /* max-width: 500px; */
     font-size: 100px;
     font-family: "Chronic";
 }
 
 .main-container .description {
     color: #a8adb7;
-    width: 40%;
+    width: 85%;
     font-size: 18px;
     margin: 30px 0;
 }
@@ -66,4 +67,8 @@
 
 .main-container .button-videopart:hover {
     transform: scale(1.1);
+}
+
+.main-container .tiagolemos {
+    
 }
